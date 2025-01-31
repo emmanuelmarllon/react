@@ -1,0 +1,45 @@
+.disclaimer-premium {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, var(--cor-6), var(--cor-4));
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.disclaimer-premium .text {
+  flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium-subtitle {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disclaimer-premium button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px var(--cor-4);
+  border: 1px solid white;
+  transition: all 0.3s ease;
+}
+.disclaimer-premium button:hover {
+  background-color: transparent;
+  color: white;
+}
